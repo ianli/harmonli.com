@@ -1,0 +1,7 @@
+markdown: kramdown
+
+exclude:
+- Gulpfile.js
+- node_modules
+- package.json
+- README.md
