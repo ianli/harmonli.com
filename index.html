@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- REDIRECTION: This should be first. -->
+  <script>
+    if (window.location.hash == '#savethedate') {
+      // We sent a bunch of folks postcards with the URL
+      // http://www.harmonli.com/#savethedate
+      // which goes to the Save the Date website.
+      // For these folks, redirect them.
+      window.location = 'http://savethedate.harmonli.com';
+    } else {
+      // For everyone else, default to the wedding website.
+      window.location = 'http://wedding.harmonli.com';
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
